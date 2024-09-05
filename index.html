@@ -1,0 +1,623 @@
+<html>
+
+<head>
+    <title>Amazon.eg</title>
+    <link rel="stylesheet" href="style.css"><!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script defer>
+        function scroll() {
+            console.log("done")
+            document.body.scrollTop(0);
+        }
+    </script>
+</head>
+<bod class="jumbotron jumbotron-fluid p-0 m-0">
+    <header>
+        <div class="mobile-nav row">
+            <div class="navigation-mobile d-flex flex-fill py-2 px-2 textnowrap">
+                <i class="fa fa-bars text-white mx-2"></i>
+                <div class="amazon-logo-mobile"></div>
+                <span class="eg text-white">.eg</span>
+                <div class="flex-fill"></div>
+                <div class="text-white"> sign in ></div>
+                <div class="sign-in-logo"></div>
+                <div class="cart border-on-hover d-flex align-items-center px-2">
+                    <div class="cart-logo">
+                        <div class="num-mobile">0</div>
+                    </div>
+                    <span class="cart-text align-self-center text-white">Cart</span>
+                </div>
+            </div>
+            <div class="navigation-mobile d-flex flex-fill py-1 px-2 textnowrap">
+                <input class="search-field-mobile form-control" placeholder="Search Amazon.eg">
+                <div class="search-icon d-flex justify-content-center align-items-center">
+                    <i class="fa fa-search"></i>
+                </div>
+            </div>
+            <div class="navigation-mobile scroll-mobile d-flex flex-fill justify-content-center py-1 px-2 textnowrap">
+                <span class="today-deals-group min-wedth border-on-hover px-2 text-white textnowrap">
+                    Today's Deals
+                </span>
+
+                <span class="mobile-phones-group min-wedth border-on-hover px-1 text-white textnowrap">
+                    Mobile Phones
+                </span>
+
+                <span class="electronics-group border-on-hover px-2 text-white">
+                    Electronics
+                </span>
+
+                <span class="appliances-group border-on-hover px-2 text-white">
+                    Appliances
+                </span>
+
+                <span class="fashion-group border-on-hover px-2 text-white">
+                    Fashion
+                </span>
+
+                <span class="home-group border-on-hover px-2 text-white">
+                    Home
+                </span>
+
+                <span class="Grocery-group border-on-hover px-2 text-white">
+                    Grocery
+                </span>
+
+                <span class="vedio-games-group min-wedth border-on-hover px-2 text-white textnowrap">
+                    Vedio Games
+                </span>
+
+                <span class="toys-games-group min-wedth border-on-hover px-2 text-white textnowrap">
+                    Toys & Games
+                </span>
+
+            </div>
+        </div>
+        <div class="top-nav px-2">
+            <div class="amazon-logo-group d-flex px-2 align-items-center border-on-hover">
+                <div class="amazon-logo"></div>
+                <span class="eg">.eg</span>
+            </div>
+            <div class="deliver-to-egypt d-flex border-on-hover px-2">
+                <div class="location-icon d-flex align-items-end">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-geo-alt" viewBox="0 0 16 16">
+                        <path
+                            d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                    </svg>
+                </div>
+                <div class="flex-fill d-flex align-items-center">
+                    <div data-toggle="modal" data-target="#myModal">
+                        <span class="deliver-to">Deliver to</span>
+                        <br>
+                        <b class="egypt">Egypt</b>
+                    </div>
+                    <div class="modal fade" id="myModal">
+                        <div class="modal-dialog modal-sm modal-dialog-centered">
+                            <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header jumbotron jumbotron-fluid head-modal">
+                                    <h4 class="modal-title">Choose your delivery location</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+
+                                <!-- Modal body -->
+                                <div class="modal-body bod-modal">
+                                    <div class="write-bod">Delivery options and delivery speeds may vary for different
+                                        locations
+                                    </div>
+                                    <div class="text-center">
+                                        <button class="btn btn-warning btn-block write-but">Sign in to see your
+                                            addresses</button>
+                                    </div>
+                                </div>
+
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <div class="dropdown btn-block">
+                                        <button type="button"
+                                            class="btn btn-light border border-dark dropdown-toggle btn-block fot-modal"
+                                            data-toggle="dropdown">
+                                            Select your Governorate
+                                        </button>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Cairo</a>
+                                            <a class="dropdown-item " href="#">Giza</a>
+                                            <a class="dropdown-item " href="#">Aswan</a>
+                                            <a class="dropdown-item" href="#">Cairo</a>
+                                            <a class="dropdown-item " href="#">Giza</a>
+                                            <a class="dropdown-item " href="#">Aswan</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-fill ml-1">
+                <div class="d-flex align-items-center h-100">
+                    <div class="search-dropdown dropdown">
+                        <div class="form-group">
+                            <select class="form-control all-select" id="exampleFormControlSelect1">
+                                <option>All</option>
+                                <option>asdfghjk</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                    </div>
+                    <input class="search-field form-control" placeholder="Search Amazon.eg">
+                    <div class="search-icon d-flex justify-content-center align-items-center">
+                        <i class="fa fa-search"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="lang-dropdown dropdown dropdown-on-hover border-on-hover mx-1 d-flex align-items-center">
+                <button type="button" class="btn dropdown-toggle text-white" data-toggle="dropdown">
+                    <img src="images/eg.svg" width="20px">
+                    EN
+                </button>
+                <div class="dropdown-menu disable-transform navigation-with-clip">
+                    <img src="images/eg.svg" width="200px">
+                </div>
+            </div>
+            <div class="sign-in-dropdown dropdown dropdown-on-hover border-on-hover mx-1 d-flex align-items-center">
+                <button type="menu" class="btn dropdown-toggle text-left d-flex align-items-center"
+                    data-toggle="dropdown">
+                    <span class="text-white">
+                        <span class="h-sign-in">Hello, sign in</span>
+                        <span class="a-and-l">Account & Lists</span>
+                    </span>
+                </button>
+                <div class="dropdown-menu disable-transform sign-in-navigation-with-clip">
+                    <div class="dropdown-header text-center">
+                        <button class="btn btn-warning btn-sign-in">
+                            Sign in
+                        </button>
+                        <br>
+                        <span class="new-customer">new customer? <a class="text-success" href="#">Start Here</a></span>
+                        <hr class="mx-1 my-1">
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+
+                        </div>
+                        <div class="col-6"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="orders-btn border-on-hover d-flex align-items-end py-2 px-2">
+                Orders
+            </div>
+            <div class="cart border-on-hover d-flex align-items-center px-2">
+                <div class="cart-logo">
+                    <div class="num">0</div>
+                </div>
+                <span class="cart-text align-self-center">Cart</span>
+            </div>
+        </div>
+        <div class="bottom-nav">
+            <div class="navigation-items flex-fill py-2 textnowrap">
+                <div class="nav-items">
+                    <span class="all-group border-on-hover px-1">
+                        <i class="fa fa-bars text-white all-icon">
+                            <span class="all-text">All</span>
+                        </i>
+                    </span>
+
+                    <span class="today-deals-group min-wedth border-on-hover px-2 text-white">
+                        Today's Deals
+                    </span>
+
+                    <span class="mobile-phones-group min-wedth border-on-hover px-1 text-white">
+                        Mobile Phones
+                    </span>
+
+                    <span class="prime-dropdown dropdown dropdown-on-hover border-on-hover mx-1 py-0">
+                        <div class="dropdown-group">
+                            <span type="button" class=" dropdown-toggle text-white" data-toggle="dropdown">
+                                Prime
+                            </span>
+                            <div class="dropdown-menu disable-transform navigation-with-clip dropdown-zindex">
+                                <img src="images/eg.svg" width="200px">
+                            </div>
+                        </div>
+                    </span>
+
+                    <span class="electronics-group border-on-hover px-2 text-white">
+                        Electronics
+                    </span>
+
+                    <span class="appliances-group border-on-hover px-2 text-white">
+                        Appliances
+                    </span>
+
+                    <span class="fashion-group border-on-hover px-2 text-white">
+                        Fashion
+                    </span>
+
+                    <span class="home-group border-on-hover px-2 text-white">
+                        Home
+                    </span>
+
+                    <span class="Grocery-group border-on-hover px-2 text-white">
+                        Grocery
+                    </span>
+
+                    <span class="vedio-games-group min-wedth border-on-hover px-2 text-white">
+                        Vedio Games
+                    </span>
+
+                    <span class="toys-games-group min-wedth border-on-hover px-2 text-white">
+                        Toys & Games
+                    </span>
+
+                    <span class="perfumes-group border-on-hover px-2 text-white">
+                        Perfumes
+                    </span>
+                </div>
+            </div>
+            <div class="img-group border-on-hover">
+                <img src="https://m.media-amazon.com/images/G/42/3P/400x39_EN_N11._CB643596067_.png" alt="nav-img">
+            </div>
+
+        </div>
+    </header>
+
+    <div class="main-slide jumbotron jumbotron-fluid m-0">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner carousel-img-group">
+                <div class="carousel-item active">
+                    <img src="https://m.media-amazon.com/images/I/71WlGA7Ct+L._SX3000_.jpg" alt="Los Angeles">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://m.media-amazon.com/images/I/518gmdrcSoL._SX3000_.jpg" alt="Chicago">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://m.media-amazon.com/images/I/71dV8uFLUGL._SX3000_.jpg" alt="New York">
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev brt" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next brt" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+
+        <div class="container-cards row px-3">
+            <div class="card-group col-md-3 col-sm-6 p-2">
+                <div class="card px-2">
+
+                    <div class="card-headers card-header">
+                        <h2>Mobiles accessories | Below 49 EGP</h2>
+                    </div>
+
+                    <div class="card-bodys card-body">
+                        <img class="card-img"
+                            src="https://images-eu.ssl-images-amazon.com/images/G/42/Egypt-hq/2022/img/Consumer_Electronics/XCM_Manual_1467596_4978170_379x304_1X._SY304_CB609468519_.jpg"
+                            alt="#">
+                    </div>
+
+                    <div class="card-footers card-footer ">
+                        <a href="#"> see more</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card-group col-md-3 col-sm-6 p-2">
+                <div class="card px-2">
+
+                    <div class="card-headers card-header">
+                        <h2>Mobiles accessories | Below 49 EGP</h2>
+                    </div>
+
+                    <div class="card-bodys card-body">
+                        <img class="card-img"
+                            src="https://images-eu.ssl-images-amazon.com/images/G/42/Egypt-hq/2022/img/Consumer_Electronics/XCM_Manual_1467596_4978170_379x304_1X._SY304_CB609468519_.jpg"
+                            alt="#">
+                    </div>
+
+                    <div class="card-footers card-footer ">
+                        <a href="#"> see more</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card-group col-md-3 col-sm-6 p-2">
+                <div class="card px-2">
+
+                    <div class="card-headers card-header">
+                        <h2>Mobiles accessories | Below 49 EGP</h2>
+                    </div>
+
+                    <div class="card-bodys card-body">
+                        <img class="card-img"
+                            src="https://images-eu.ssl-images-amazon.com/images/G/42/Egypt-hq/2022/img/Consumer_Electronics/XCM_Manual_1467596_4978170_379x304_1X._SY304_CB609468519_.jpg"
+                            alt="#">
+                    </div>
+
+                    <div class="card-footers card-footer ">
+                        <a href="#"> see more</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card-group col-md-3 col-sm-6 p-2">
+                <div class="card px-2">
+
+                    <div class="card-headers card-header">
+                        <h2>Mobiles accessories | Below 49 EGP</h2>
+                    </div>
+
+                    <div class="card-bodys card-body">
+                        <img class="card-img"
+                            src="https://images-eu.ssl-images-amazon.com/images/G/42/Egypt-hq/2022/img/Consumer_Electronics/XCM_Manual_1467596_4978170_379x304_1X._SY304_CB609468519_.jpg"
+                            alt="#">
+                    </div>
+
+                    <div class="card-footers card-footer ">
+                        <a href="#"> see more</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container-fluid bg-white py-2 m-2">
+                <div id="dem" class="carousel" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators under-carsoul-group d-flex flex-fill mx-0">
+                        <li class="under-carsoul flex-fill" data-target="#dem" data-slide-to="0"></li>
+                        <li class="under-carsoul flex-fill" data-target="#dem" data-slide-to="1"></li>
+                        <li class="under-carsoul flex-fill" data-target="#dem" data-slide-to="2"></li>
+                        <li class="under-carsoul flex-fill" data-target="#dem" data-slide-to="3"></li>
+                        <li class="under-carsoul flex-fill" data-target="#dem" data-slide-to="4"></li>
+                    </ul>
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="m-2">
+                            <span class="carousel-header">Shop Today's Deals</span>
+                            <a class="carousel-header-1" href="#">see more</a>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="row ">
+                                <img class="col-3 "
+                                    src="https://images-eu.ssl-images-amazon.com/images/G/42/Egypt-hq/2022/img/Consumer_Electronics/XCM_Manual_1467596_4978170_379x304_1X._SY304_CB609468519_.jpg"
+                                    alt="Los Angeles">
+                                <img class="col-3" src="https://m.media-amazon.com/images/I/71WlGA7Ct+L._SX3000_.jpg"
+                                    alt="Los Angeles">
+                                <img class="col-3" src="https://m.media-amazon.com/images/I/71WlGA7Ct+L._SX3000_.jpg"
+                                    alt="Los Angeles">
+                                <img class="col-3" src="https://m.media-amazon.com/images/I/71WlGA7Ct+L._SX3000_.jpg"
+                                    alt="Los Angeles">
+                            </div>
+                        </div>
+                        <div class="carousel-item bg-white">
+                            <div class="row">
+                                <img class="col-3" src="https://m.media-amazon.com/images/I/71WlGA7Ct+L._SX3000_.jpg"
+                                    alt="Los Angeles">
+                                <img class="col-3 "
+                                    src="https://images-eu.ssl-images-amazon.com/images/G/42/Egypt-hq/2022/img/Consumer_Electronics/XCM_Manual_1467596_4978170_379x304_1X._SY304_CB609468519_.jpg"
+                                    alt="Los Angeles">
+                                <img class="col-3" src="https://m.media-amazon.com/images/I/71WlGA7Ct+L._SX3000_.jpg"
+                                    alt="Los Angeles">
+                                <img class="col-3" src="https://m.media-amazon.com/images/I/71WlGA7Ct+L._SX3000_.jpg"
+                                    alt="Los Angeles">
+                            </div>
+                        </div>
+                        <div class="carousel-item bg-white">
+                            <div class="row">
+                                <img class="col-3" src="https://m.media-amazon.com/images/I/71WlGA7Ct+L._SX3000_.jpg"
+                                    alt="Los Angeles">
+                                <img class="col-3" src="https://m.media-amazon.com/images/I/71WlGA7Ct+L._SX3000_.jpg"
+                                    alt="Los Angeles">
+                                <img class="col-3 "
+                                    src="https://images-eu.ssl-images-amazon.com/images/G/42/Egypt-hq/2022/img/Consumer_Electronics/XCM_Manual_1467596_4978170_379x304_1X._SY304_CB609468519_.jpg"
+                                    alt="Los Angeles">
+                                <img class="col-3" src="https://m.media-amazon.com/images/I/71WlGA7Ct+L._SX3000_.jpg"
+                                    alt="Los Angeles">
+                            </div>
+                        </div>
+                        <div class="carousel-item bg-white">
+                            <div class="row">
+                                <img class="col-3" src="https://m.media-amazon.com/images/I/71WlGA7Ct+L._SX3000_.jpg"
+                                    alt="Los Angeles">
+                                <img class="col-3" src="https://m.media-amazon.com/images/I/71WlGA7Ct+L._SX3000_.jpg"
+                                    alt="Los Angeles">
+                                <img class="col-3" src="https://m.media-amazon.com/images/I/71WlGA7Ct+L._SX3000_.jpg"
+                                    alt="Los Angeles">
+                                <img class="col-3 "
+                                    src="https://images-eu.ssl-images-amazon.com/images/G/42/Egypt-hq/2022/img/Consumer_Electronics/XCM_Manual_1467596_4978170_379x304_1X._SY304_CB609468519_.jpg"
+                                    alt="Los Angeles">
+                            </div>
+                        </div>
+                        <div class="carousel-item bg-white">
+                            <div class="row">
+                                <img class="col-3"
+                                    src="https://images-eu.ssl-images-amazon.com/images/G/42/Egypt-hq/2022/img/Consumer_Electronics/XCM_Manual_1467596_4978170_379x304_1X._SY304_CB609468519_.jpg"
+                                    alt="Los Angeles">
+                                <img class="col-3" src="https://m.media-amazon.com/images/I/71WlGA7Ct+L._SX3000_.jpg"
+                                    alt="Los Angeles">
+                                <img class="col-3" src="https://m.media-amazon.com/images/I/71WlGA7Ct+L._SX3000_.jpg"
+                                    alt="Los Angeles">
+                                <img class="col-3" src="https://m.media-amazon.com/images/I/71WlGA7Ct+L._SX3000_.jpg"
+                                    alt="Los Angeles">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#dem" data-slide="prev">
+                        <span class="carousel-control-prev-icon bnt"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#dem" data-slide="next">
+                        <span class="carousel-control-next-icon bnt"></span>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <footer>
+        <div id="scroll" class="header-footer d-flex justify-content-center align-items-center text-white"
+            type="button">
+            <div onclick="scroll()">Back to top</div>
+        </div>
+        <div class="content-footer py-5">
+            <div class="row px-md-0 px-5">
+                <div class="col-md-2"></div>
+                <div class="col-md-2 col-sm-6 py-2 font-footer-footer">
+                    <div class="get-to font-footer">Get to Know Us</div>
+                    <div class="footer-hover color-footer">About Amazon</div>
+                    <div class="footer-hover color-footer">Careers</div>
+                    <div class="footer-hover color-footer">Amazon Science</div>
+                </div>
+                <div class="col-md-2 col-sm-6 py-2">
+                    <div class="shop-with font-footer">Shop with Us</div>
+                    <div class="footer-hover color-footer">Your Account</div>
+                    <div class="footer-hover color-footer">Your Orders</div>
+                    <div class="footer-hover color-footer">Your Addresses</div>
+                    <div class="footer-hover color-footer">Your Lists</div>
+                </div>
+                <div class="col-md-2 col-sm-6 py-2 font-footer-footer">
+                    <div class="make-mony font-footer">Make Money with Us</div>
+                    <div class="footer-hover color-footer">Protect and build your brand</div>
+                    <div class="footer-hover color-footer">Advertise Your Products</div>
+                    <div class="footer-hover color-footer">Sell on Amazon</div>
+                    <div class="footer-hover color-footer">Fulfillment by Amazon</div>
+                </div>
+                <div class="col-md-2 col-sm-6 py-2 font-footer-footer">
+                    <div class="help-you font-footer">Let Us Help You</div>
+                    <div class="footer-hover color-footer">Help</div>
+                    <div class="footer-hover color-footer">Shipping & Delivery</div>
+                    <div class="footer-hover color-footer">Returns & Replacements</div>
+                    <div class="footer-hover color-footer">Amazon App Download</div>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+        <hr class="content-footer py-0 my-0">
+
+        <div class="footer-content-group content-footer d-flex justify-content-center py-3">
+            <div class="footer-content content-footer">
+            </div>
+            <div class="lang-footer-dropdown dropdown dropdown-on-hover">
+                <button type="button" class="lang-dropdown-btn btn dropdown-toggle" data-toggle="dropdown">
+                    English
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">English</a>
+                    <a class="dropdown-item" href="#">Arabic</a>
+                </div>
+            </div>
+            <div class="egypt-btn btn mx-2">
+                <img src="images/eg.svg" width="15px">
+                Egypt
+            </div>
+        </div>
+
+        <div class="footer-footer px-5">
+            <div class="container">
+                <div class="first-row-footer row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-2 col-sm-6 my-2">
+                        <div class="font-footer-footer" href="#">Amazon Advertising</div>
+                        <div class="font-footer-footer" href="#">Find, attract, and </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-6 my-2">
+                        <div class="font-footer-footer" href="#">Amazon Advertising</div>
+                        <div class="font-footer-footer" href="#">Amazon Advertising</div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-6 my-2">
+                        <div class="font-footer-footer" href="#">Amazon Advertising</div>
+                        <div class="font-footer-footer" href="#">Amazon Advertising</div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-6 my-2">
+                        <div class="font-footer-footer" href="#">Amazon Advertising</div>
+                        <div class="font-footer-footer" href="#">Amazon Advertising</div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-6 my-2">
+                        <div class="font-footer-footer" href="#">Amazon Advertising</div>
+                        <div class="font-footer-footer" href="#">Amazon Advertising</div>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+
+                <div class="first-row-footer row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-2 col-sm-6 my-2">
+                        <div class="font-footer-footer" href="#">Amazon Advertising</div>
+                        <div class="font-footer-footer" href="#">Amazon Advertising</div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-6 my-2">
+                        <div class="font-footer-footer" href="#">Amazon Advertising</div>
+                        <div class="font-footer-footer" href="#">Amazon Advertising</div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-6 my-2">
+                        <div class="font-footer-footer" href="#">Amazon Advertising</div>
+                        <div class="font-footer-footer" href="#">Amazon Advertising</div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-6 my-2">
+                        <div class="font-footer-footer" href="#">Amazon Advertising</div>
+                        <div class="font-footer-footer" href="#">Amazon Advertising</div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-6 my-2">
+
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+            </div>
+            <div class="container py-4">
+                <div class="d-flex justify-content-center">
+                    <div class="font-footer-footer px-2" href="#">Conditions of Use & Sale</div>
+                    <div class="font-footer-footer px-2" href="#">Privacy Notice</div>
+                    <div class="font-footer-footer px-2" href="#">Interest-Based Ads</div>
+                </div>
+                <div class="font-footer-footer text-center">©1996–2024, Amazon.com, Inc. or its affiliates</div>
+            </div>
+        </div>
+    </footer>
+    </body>
+
+</html>

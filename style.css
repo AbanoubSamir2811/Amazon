@@ -1,0 +1,427 @@
+html,body{
+    overflow-x: hidden;
+    padding: 0px !important;
+}
+.top-nav{
+    background-color: #131921;
+    color: white;
+    height: 60px;
+    padding: 4px;
+    white-space: nowrap !important;
+}
+.amazon-logo{
+    background-image: url('images/amazon-icons.png');
+    background-position: -10px -51px;
+    background-repeat: no-repeat;
+    background-size: 350px;
+    width: 97px;
+    height: 30px;
+}
+.amazon-logo-mobile{
+    background-image: url('images/amazon-icons.png');
+    background-position: -7px -65px;
+    background-repeat: no-repeat;
+    background-size: 275px;
+    width: 63px;
+    height: 27px;
+}
+.sign-in-logo{
+    background-image: url('images/amazon-icon2.png');
+    background-position: -141px -300px;
+    background-repeat: no-repeat;
+    background-size: 275px;
+    width: 35px;
+    height: 27px;
+}
+.border-on-hover:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.eg{
+    font-size: 13.5px;
+    padding-bottom: 7px; 
+}
+.deliver-to-egypt{
+    font-size: 12px;
+    line-height: 1.1;
+}
+.deliver-to {
+    color: #B4CCCC;
+}
+.location-icon{
+    padding-bottom: 12px;
+    padding-right: 2px;
+}
+.egypt{
+    font-size: 14px;
+}
+.all-select{
+    max-width: 100% !important;
+}
+.all-selects{
+    max-width: 100% !important;
+    background-color: #E6E6E6 !important;
+
+}
+.all-selects:hover{
+    cursor: pointer;
+}
+.search-field{
+    border-radius: 0px !important;
+}
+.search-field-mobile{
+    border-radius: 3px 0px 0px 3px;
+}
+.search-dropdown{
+    height: 38px !important;
+    border-radius: 4px 0px 0px 4px !important;
+    background-color: #E6E6E6;
+}
+.search-dropdown-btn{
+    height: 38px !important;
+    font-size: 12px !important;
+    padding: 10px !important;
+}
+.search-icon{
+    height: 38px !important;
+    width: 42px !important;
+    border-radius: 0px 4px 4px 0px !important;
+    background-color: #FEBD69;
+    color: black;
+    font-size: 16px;
+}
+
+.dropdown-on-hover:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
+.navigation-with-clip {
+    left: auto !important;
+    right: -60px !important;
+    top: 62% !important;
+    clip-path: polygon(0 100%, 100% 100%, 100% 7%, 68% 7%, 64% 0, 58% 7%, 0 7%);
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+.h-sign-in{
+    font-size: 12px;
+    line-height: 1.1;
+    display: block !important;
+}
+.a-and-l{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.sign-in-dropdown .dropdown-toggle::after {
+    margin-top: 18px;
+    color: white;
+}
+.sign-in-navigation-with-clip{
+    left: auto !important;
+    right: 0px !important;
+    top: 62% !important;
+    width: 500px;
+    clip-path: polygon(0 100%, 100% 100%, 100% 7%, 68% 7%, 64% 0, 58% 7%, 0 7%);
+}
+.btn-sign-in{
+    font-size: 14px !important;
+    color: white !important;
+    width: 200px;
+}
+.new-customer{
+    font-size: 12px;
+}
+.disable-transform{
+    transform: none !important;
+}
+.orders-btn{
+    font-weight: bolder;
+    font-size: 15px;
+}
+.cart{
+    position: relative;
+}
+.cart-logo {
+    background-image: url('images/amazon-icons.png');
+    background-size: 350px;
+    background-position: -10px -340px;
+    width: 38px;
+    height: 26px
+}
+.num{
+    position: absolute;
+    right: 48px;
+    top: 5px;
+    color: #f08804;
+    font-weight: bold;
+}
+.num-mobile{
+    position: absolute;
+    right: 48px;
+    top: -3px;
+    color: #f08804;
+    font-weight: bold;
+}
+.cart-text{
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.bottom-nav{
+    height: 35px !important;
+    font-size: 12px !important;
+    background-color: #232f3e;
+    font-weight: bold !important;
+    padding-right: 0px !important;
+    padding-left: 10px !important;
+}
+.all-group{
+    min-width: 50px;
+}
+.all-icon{
+    font-size: 14px;
+    line-height: 20px !important;
+}
+.all-text{
+    font-size: 14px;
+}
+.prime-dropdown button{
+    font-size: 14px !important;
+}
+.navigation-items{
+    position: relative;
+    overflow:hidden;
+    white-space: nowrap;
+}
+.dropdown-group{
+    position: relative;
+    display: inline-block;
+    overflow: visible;
+}
+.dropdown-zindex{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    white-space: nowrap;
+}
+.img-group img{
+    height: 100% !important;
+    width: 350px !important;
+}
+.perfumes-group{
+    display: initial;
+}
+.min-wedth{
+    min-width: 100px !important;
+}
+.header-footer{
+    background-color: #37475A;
+    font-size: 13px ;
+    padding: 11px 0px;
+    visibility: visible;
+}
+.header-footer:hover{
+    background-color: #455263 !important;
+}
+.content-footer{
+    background-color: #232F3E;
+    font-size: 14px;
+    line-height: 20px;
+    color: #DDD;
+}   
+.font-footer{
+    font-weight: 700;
+    color: white;
+}
+.color-footer{
+    color: #DDD;
+}
+.footer-hover:hover{
+    cursor: pointer;
+    text-decoration-line: underline;
+    text-decoration-color: #DDD;
+}
+
+.main-slide{
+    padding: 0pc !important;
+    margin: 0px !important;
+}
+.footer-content{
+    background-image: url('images/amazon-icons.png');
+    background-position: 172px -77px;
+    width: 76px;
+    height: 23px;
+    background-size: 265px;
+}
+
+.lang-footer-dropdown{
+    padding: 0px !important;
+    margin-left: 80px !important;
+}
+.lang-dropdown-btn{
+    border: 1px solid #848688 !important;
+    border-radius: 3px;
+    padding: 6px 18px 6px 8px !important;
+    background-color: #232F3E;
+    color: #ccc !important;
+    font-size: 13px !important;
+}
+.egypt-btn{
+    border: 1px solid #848688 !important;
+    border-radius: 3px;
+    padding: 6px 18px 6px 8px !important;
+    background-color: #232F3E;
+    color: #ccc !important;
+    font-size: 13px !important;
+}
+.footer-footer{
+    background-color: #131A22;
+    padding: 30px 0;
+}
+.font-footer-footer{
+    font-size: 12px !important;
+    color: #DDD;
+    white-space: nowrap;
+}
+.first-row-footer{
+    margin: 0px !important;
+}
+.font-footer-footer:hover{
+    cursor: pointer;
+    text-decoration-line: underline;
+    text-decoration-color: #DDD;
+}
+.space-footer{
+    content: "";
+    width: 4%;
+}
+.navigation-mobile{
+    background-color: #232f3e;
+    overflow: hidden;
+}
+.textnowrap{
+    white-space: nowrap;
+}
+
+
+/* content */
+
+.slide{
+    height: 22vw;
+}
+.carousel-item img{
+    width: 100% !important;
+    min-height: 200px !important;
+}
+.brt{
+    height: 20vw !important;
+    width: 5vw !important;
+    margin: 2vw;
+    border-radius: 5px;
+}
+.brt:focus{
+    border: 1px solid #007185;
+    outline: 2px solid white !important;
+}
+
+
+.card-headers{
+    background-color: white !important;
+    border: none !important;
+}
+.card-headers h2{
+    font-size: 21px!important;
+    line-height: 27.3px!important;
+    font-weight: 700;
+}
+.card-footers{
+    background-color: white !important;
+    border: none !important;
+}
+.bnt{
+    height: 2.5vw !important;
+    width: 2.5vw !important;
+    margin: 1vw;
+    border-radius: 100%;
+    background-color: #131921 !important;
+}
+.bnt:focus{
+    border: 1px solid #007185;
+    outline: 2px solid white !important;
+}
+.under-carsoul{
+    background-color: #131921 !important;
+    margin-bottom: -25px !important;
+}
+.carousel-header{
+    font-size: 21px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.carousel-header-1{
+    font-size: 18px;
+}
+
+@media only screen and (min-width:760px) {
+    .top-nav{
+        display: flex !important;
+    }
+    .mobile-nav{
+        display: none !important;
+    }
+    .bottom-nav{
+        display: flex;
+    }
+}
+@media only screen and (max-width:760px) {
+    .top-nav{
+        display: none !important;
+    }
+    .mobile-nav{
+        display: initial !important;
+    }
+    .bottom-nav{
+        display: none !important;
+    }
+    .scroll-mobile{
+        overflow-x:scroll
+    }
+}
+
+.bod-modal{
+    font-size: 9px !important;
+    padding-top: 10px !important;
+    color: black !important;
+}
+.head-modal{
+    margin-bottom: 0px !important;
+    color: black !important;
+}
+.write-bod{
+    margin-bottom: 5px !important;
+    color: black !important;
+}
+.write-but{
+    font-size: 12px !important;
+    font-weight: bold !important;
+}
+.fot-modal{
+    font-size: 12px !important;
+    height: 25px !important;
+    padding-top: 2px !important;
+}
+.modal-footer{
+    padding: 5px !important;
+}
+h4{
+    font-size: 16px !important;
+}
